@@ -173,7 +173,7 @@ default_border pixel 3
 
 exec compton
 exec feh --bg-scale ~/bg.jpg
-exec xrdb -m ~/.Xresources && exec urxvt
+exec xrdb -m ~/.Xresources
 exec polybar example
 
 

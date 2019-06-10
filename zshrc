@@ -20,13 +20,12 @@ export TERM='xterm-256color'
 
 
 alias vim="nvim"
-alias zyp="sudo zypper"
 alias fdisk="sudo fdisk"
 alias dd="sudo dd"
 alias systemctl="sudo systemctl"
 alias ls="ls -l --color=auto"
 alias la="ls -a"
-
+alias apt="sudo apt"
 PATH="/home/ui/Apps/bin:/sbin:/usr/sbin:$PATH"
 
 [ -z "$DISPLAY" ] && startx ; echo 1 > /dev/null

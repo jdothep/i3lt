@@ -359,7 +359,7 @@ animation-discharging-1 = 
 animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
-
+poll-interval = 30
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
